@@ -21,27 +21,6 @@ Este proyecto permite la integración de Google Wallet con una aplicación React
 
 ---
 
-## **Estructura del Proyecto**
--google-wallet-integration/
--├── backend/ # Código del servidor backend
--│ ├── google.json # Archivo de credenciales de Google (¡NO subir a GitHub!)
--│ ├── server.js # Servidor backend
--│ ├── package.json # Dependencias del backend
--│ └── .gitignore # Ignorar node_modules y otros archivos
--├── frontend/ # Código de la aplicación React
--│ ├── src/
--│ │ ├── components/ # Componentes de React
--│ │ │ ├── GoogleWalletIntegration.js
--│ │ │ └── PolicyCard.js
--│ │ ├── App.js # Componente principal de la aplicación
--│ │ ├── index.js # Punto de entrada de la aplicación
--│ │ └── ...
--│ ├── package.json # Dependencias del frontend
--│ └── .gitignore # Ignorar node_modules y otros archivos
--├── README.md # Documentación del proyecto
-
----
-
 ## **Instalación y Configuración**
 
 ### **1. Clonar el Repositorio**
