@@ -36,6 +36,8 @@ Este proyecto permite la integración de Google Wallet con una aplicación React
 - npm install
 - npm start
 
+---
+
 # Uso
 - Abre la aplicación en tu navegador (por defecto, estará en http://localhost:3000).
 - Verás los detalles de la póliza en la tarjeta de la póliza
