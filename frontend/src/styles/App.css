@@ -1,0 +1,148 @@
+/* src/styles/App.css */
+
+/* Estilos generales */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Encabezado */
+.header {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #218838;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+/* Tarjeta de Póliza */
+/* Archivo: PolicyCard.css */
+
+.policy-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.policy-card h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.policy-details {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.policy-details p {
+  font-size: 14px;
+  color: #555555;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.policy-details strong {
+  width: 120px; /* Ancho fijo para las etiquetas */
+  font-weight: bold;
+  color: #333333;
+}
+
+.policy-details input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #555555;
+  margin-left: 10px;
+}
+
+.policy-details input[readonly] {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+/* Estilos para los inputs */
+.policy-details input {
+  border: none; /* Quitar el borde */
+  background: transparent; /* Fondo transparente */
+  font-size: 1rem;
+  color: #333333;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+  outline: none; /* Quitar el borde al hacer clic */
+}
+
+.policy-details input:focus {
+  border-bottom: 1px solid #003366; /* Línea inferior al hacer clic */
+}
+
+/* Botón principal */
+.button {
+  background-color: #28A745;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+/* Enlace de Google Wallet */
+.save-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #003366;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.save-link:hover {
+  background-color: #002244;
+}
