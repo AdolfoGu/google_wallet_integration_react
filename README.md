@@ -42,9 +42,8 @@ Este proyecto permite la integración de Google Wallet con una aplicación React
 - Haz clic en el botón "Agregar a Google Wallet".
 - Se generará un enlace para agregar el ticket a Google Wallet. Haz clic en él para abrirlo en una nueva pestaña
 - Sigue las instrucciones en Google Wallet para guardar el ticket.
-
-# Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+  
+---
 
 # Contacto
 
