@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Google Wallet Integration with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto permite la integración de Google Wallet con una aplicación React para crear y gestionar tickets de pólizas de seguro. Los usuarios pueden generar un ticket con los detalles de su póliza y agregarlo directamente a Google Wallet.
 
-## Available Scripts
+## **Tecnologías Utilizadas**
 
-In the project directory, you can run:
+### **Frontend**
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Axios**: Para realizar solicitudes HTTP al backend.
+- **CSS**: Para estilizar los componentes.
 
-### `npm start`
+### **Backend**
+- **Node.js**: Entorno de ejecución para JavaScript.
+- **Express**: Framework para construir APIs RESTful.
+- **Google Auth Library**: Para autenticar con Google usando JWT.
+- **Axios**: Para realizar solicitudes HTTP a la API de Google Wallet.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Google Wallet API**
+- **Google Wallet API**: Para crear y gestionar tickets.
+- **JWT (JSON Web Tokens)**: Para autenticar las solicitudes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **Estructura del Proyecto**
+google-wallet-integration/
+├── backend/ # Código del servidor backend
+│ ├── google.json # Archivo de credenciales de Google (¡NO subir a GitHub!)
+│ ├── server.js # Servidor backend
+│ ├── package.json # Dependencias del backend
+│ └── .gitignore # Ignorar node_modules y otros archivos
+├── frontend/ # Código de la aplicación React
+│ ├── src/
+│ │ ├── components/ # Componentes de React
+│ │ │ ├── GoogleWalletIntegration.js
+│ │ │ └── PolicyCard.js
+│ │ ├── App.js # Componente principal de la aplicación
+│ │ ├── index.js # Punto de entrada de la aplicación
+│ │ └── ...
+│ ├── package.json # Dependencias del frontend
+│ └── .gitignore # Ignorar node_modules y otros archivos
+├── README.md # Documentación del proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## **Instalación y Configuración**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **1. Clonar el Repositorio**
+- git clone https://github.com/AdolfoGu/google_wallet_integration_react.git
+- cd google-wallet-integration
+### **2. Configurar el BackEnd**
+- cd backend
+- npm install
+- npm start
+  
+### **2. Configurar el FrontEnd**
+- cd ../frontend
+- npm install
+- npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Uso
+- Abre la aplicación en tu navegador (por defecto, estará en http://localhost:3000).
+- Verás los detalles de la póliza en la tarjeta de la póliza
+- Haz clic en el botón "Agregar a Google Wallet".
+- Se generará un enlace para agregar el ticket a Google Wallet. Haz clic en él para abrirlo en una nueva pestaña
+- Sigue las instrucciones en Google Wallet para guardar el ticket.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-### `npm run eject`
+# Contacto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Nombre:** Juan Adolfo Gutierrez Gaytan
+**Email:** ja.gutierrez.gaytan@ugto.mx
+**GitHub:** AdolfoGu
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
