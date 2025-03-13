@@ -51,7 +51,7 @@ Este proyecto permite la integración de Google Wallet con una aplicación React
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-**Nombre:** Juan Adolfo Gutierrez Gaytan
-**Email:** ja.gutierrez.gaytan@ugto.mx
-**GitHub:** AdolfoGu
+- **Nombre:** Juan Adolfo Gutierrez Gaytan
+- **Email:** ja.gutierrez.gaytan@ugto.mx
+- **GitHub:** AdolfoGu
 
